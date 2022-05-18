@@ -1,0 +1,76 @@
+@media only screen and (max-width: 960px) {
+    .main{
+        font-size: 20px;
+    }
+    .contact i{
+        padding: 8px;
+    }
+    .name{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        top: 25px;
+    }
+    .nav-height-resp{
+        height: 70px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .navbar-class{
+        flex-direction: column;
+    }
+    .nav-class{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .main{
+        animation: none;
+    }
+    .resume{
+        font-size: 12px;
+        padding: 7px;
+    }
+    .front p{
+        font-size: 10px;
+    }
+    .front a{
+        font-size: 10px;
+        width: 80px;
+        padding: 5px;
+    }
+    .back h1{
+        font-size: 20px;
+        padding: 10px;
+    }
+    #cover{
+        width: 230px;
+    }
+    .content-footer{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .image{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .content-right{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+    }
+    .contact i{
+        margin: 0;
+    }
+}
